@@ -1,4 +1,4 @@
-ejecutar comandos en este orden:
+##Execute the following commands in the given order:
 apt-get install lex -y
 apt-get install gcc -y
 lex regex-l
