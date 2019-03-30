@@ -35,8 +35,8 @@ ID		{LETRA}{ALFA}*
 {ID}		{ printf(" ID= %s ", yytext); }
 {REAL}		{ printf(" cte-real= %s ", yytext); }
 {NUMERO}	{ printf(" cte-entero= %s ", yytext); }
-";"		{ printf(" punto-coma= ; "); ++_lineno;}
 ","		{ printf(" coma= , ");}
+";"		{ printf(" punto-coma= ; "); ++_lineno;}
 [ ]		;
 "\n"		{printf("\n"); ++_lineno;}
 .		{ printf("\nERROR EN LINEA %d, EN %s\n", _lineno, yytext); ++_lineno;}
