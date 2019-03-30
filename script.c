@@ -1,5 +1,5 @@
-main(void)
-{ int i;
+main(void) {
+ int i;
  int j;
  char c;
  char cadena
@@ -10,4 +10,13 @@ main(void)
  scanf("%d",i);
  i=i*2;
  printf("El doble es %d", i);
+ if (z == 12.9) {
+  printf("Verdadero.");
+ }
+ while (true) {
+  printf("Hola Mundo.");
+ }
+ do {
+  printf("Sistemas Operacionales.");
+ } while (true);
 }
